@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PCS Landing Page</title>
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta charset="utf-8">
+</head>
+<body>
+
+  <!-- Menu Button -->
+  <div class="menu-button">
+    <a onclick="openNav()">
+      <svg viewBox="0 0 24 24">
+        <path d="M16,12A2,2 0 0,1 18,10A2,2 0 0,1 20,12A2,2 0 0,1 18,14A2,2 0 0,1 16,12M10,12A2,2 0 0,1 12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12M4,12A2,2 0 0,1 6,10A2,2 0 0,1 8,12A2,2 0 0,1 6,14A2,2 0 0,1 4,12Z"></path>
+      </svg>
+    </a>
+  </div>
+
+  <!-- Side Menu -->
+  <div id="myNav" class="overlay-container">
+    <!--   Side Menu Close Button -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+    <!--   Side Menu Content -->
+    <div class="overlay-content">
+      <a target="_blank" href="//bespoke.careercompanion.co.uk/libraries/index">Career Companion</a>
+      <a target="_blank" href="//completemaths.com/">Complete Maths</a>
+      <a target="_blank" href="//ebpsouth.work-experience.co.uk/login">EBP</a>
+      <a target="_blank" href="//www.educake.co.uk">EduCake</a>
+      <a target="_blank" href="//mymaths.co.uk">MyMaths</a>
+      <a target="_blank" href="//englishapp.pixl.org.uk/PiXLit.html">PiXL English</a>
+      <a target="_blank" href="//geographyapp.pixl.org.uk/Geography%20App.html">PiXL Geography</a>
+      <a target="_blank" href="//historyapp.pixl.org.uk/History%20App.html">PiXL History</a>
+      <a target="_blank" href="//mathsapp.pixl.org.uk/PMA.html">PiXL Maths</a>
+      <a target="_blank" href="//timestable.pixl.org.uk/Timestables.html">PiXL Timestable</a>
+    </div>
+  </div>
+
+  <!-- Front Page Content -->
+  <div class="container">
+    <div class="searchbox">
+      <iframe class="duckduckgo" src="https://duckduckgo.com/search.html?prefill=Search DuckDuckGo&focus=yes&s?kl=uk-en" frameborder="0"></iframe>
+    </div>
+    <div class="primary-wrapper">
+      <div class="primary one">
+        <a target="_blank" href="//login.microsoftonline.com/login.srf?wa=wsignin1.0&whr=pcs.hants.sch.uk&wreply=https%3A%2F%2Fpcshantssch.sharepoint.com/">
+          <svg viewBox="0 0 24 24">
+            <path d="M3,18L7,16.75V7L14,5V19.5L3.5,18.25L14,22L20,20.75V3.5L13.95,2L3,5.75V18Z" />
+        </svg>
+          <p>Office 365</p>
+        </a>
+      </div>
+
+      <div class="primary three">
+        <a target="_blank" href="//my.milkapp.io">
+          <svg viewBox="0 0 24 24">
+            <path d="M19,3H14.82C14.4,1.84 13.3,1 12,1C10.7,1 9.6,1.84 9.18,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3M12,3A1,1 0 0,1 13,4A1,1 0 0,1 12,5A1,1 0 0,1 11,4A1,1 0 0,1 12,3M7,7H17V5H19V19H5V5H7V7M7.5,13.5L9,12L11,14L15.5,9.5L17,11L11,17L7.5,13.5Z" />
+          </svg>
+          <p>Milk</p>
+        </a>
+      </div>
+
+      <div class="primary two">
+        <a target="_blank" href="//ukhosted17.renlearn.co.uk/2212339">
+          <svg viewBox="0 0 24 24">
+            <path d="M19,2L14,6.5V17.5L19,13V2M6.5,5C4.55,5 2.45,5.4 1,6.5V21.16C1,21.41 1.25,21.66 1.5,21.66C1.6,21.66 1.65,21.59 1.75,21.59C3.1,20.94 5.05,20.5 6.5,20.5C8.45,20.5 10.55,20.9 12,22C13.35,21.15 15.8,20.5 17.5,20.5C19.15,20.5 20.85,20.81 22.25,21.56C22.35,21.61 22.4,21.59 22.5,21.59C22.75,21.59 23,21.34 23,21.09V6.5C22.4,6.05 21.75,5.75 21,5.5V7.5L21,13V19C19.9,18.65 18.7,18.5 17.5,18.5C15.8,18.5 13.35,19.15 12,20V13L12,8.5V6.5C10.55,5.4 8.45,5 6.5,5V5Z" />
+        </svg>
+          <p>AR</p>
+        </a>
+      </div>
+
+      <div class="primary two">
+        <a target="_blank" href="//theedge.pixl.org.uk">
+          <svg viewBox="0 0 24 24">
+            <path d="M9,5A3.5,3.5 0 0,1 12.5,8.5A3.5,3.5 0 0,1 9,12A3.5,3.5 0 0,1 5.5,8.5A3.5,3.5 0 0,1 9,5M9,13.75C12.87,13.75 16,15.32 16,17.25V19H2V17.25C2,15.32 5.13,13.75 9,13.75M17,12.66L14.25,9.66L15.41,8.5L17,10.09L20.59,6.5L21.75,7.91L17,12.66Z" />
+          </svg>
+          <p>PiXL</p>
+        </a>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <a href="//pcs.hants.sch.uk" target="_blank">Park Community School</a>
+    </footer>
+  </div>
+
+
+
+ <script src="js/main.js"></script> 
+</body>
+</html>
